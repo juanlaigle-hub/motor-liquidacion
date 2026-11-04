@@ -1,0 +1,462 @@
+[
+  {
+    "caso": 1,
+    "descripcion": "Cat. A, recién ingresado, mes completo sin novedades",
+    "legajo": {
+      "categoria": "A",
+      "sueldoFueraDeConvenio": null,
+      "aniosAntiguedad": 0
+    },
+    "novedades": {
+      "tipoLiquidacion": "MENSUAL",
+      "diasTrabajados": 30,
+      "ausenciasInjustificadas": 0,
+      "horasExtra50": 0,
+      "horasExtra100": 0,
+      "diasVacaciones": 0,
+      "sumaNoRemunerativa": "0.00",
+      "mejorRemuneracion": "0.00",
+      "diasTrabajadosSemestre": 0,
+      "diasSemestre": 1
+    },
+    "esperado": {
+      "BASICO": "1250000.00",
+      "ANTIGUEDAD": "0.00",
+      "PRESENTISMO": "104125.00",
+      "DESC_AUSENCIAS": "0.00",
+      "VALOR_HORA": "6770.63",
+      "HORAS_EXTRA_50": "0.00",
+      "HORAS_EXTRA_100": "0.00",
+      "PLUS_VACACIONAL": "0.00",
+      "SAC": "0.00",
+      "NO_REMUNERATIVO": "0.00",
+      "BASE_APORTES": "1354125.00",
+      "JUBILACION": "148953.75",
+      "LEY_19032": "40623.75",
+      "OBRA_SOCIAL": "40623.75",
+      "SINDICATO": "27082.50",
+      "CONTRIB_SIPA": "243742.50",
+      "CONTRIB_OBRA_SOCIAL": "81247.50"
+    },
+    "totales": {
+      "remunerativo": "1354125.00",
+      "descuentos": "257283.75",
+      "neto": "1096841.25",
+      "costoEmpleador": "1679115.00"
+    }
+  },
+  {
+    "caso": 2,
+    "descripcion": "Cat. C, 6 años de antigüedad, sin novedades",
+    "legajo": {
+      "categoria": "C",
+      "sueldoFueraDeConvenio": null,
+      "aniosAntiguedad": 6
+    },
+    "novedades": {
+      "tipoLiquidacion": "MENSUAL",
+      "diasTrabajados": 30,
+      "ausenciasInjustificadas": 0,
+      "horasExtra50": 0,
+      "horasExtra100": 0,
+      "diasVacaciones": 0,
+      "sumaNoRemunerativa": "0.00",
+      "mejorRemuneracion": "0.00",
+      "diasTrabajadosSemestre": 0,
+      "diasSemestre": 1
+    },
+    "esperado": {
+      "BASICO": "1420000.00",
+      "ANTIGUEDAD": "85200.00",
+      "PRESENTISMO": "125383.16",
+      "DESC_AUSENCIAS": "0.00",
+      "VALOR_HORA": "8152.92",
+      "HORAS_EXTRA_50": "0.00",
+      "HORAS_EXTRA_100": "0.00",
+      "PLUS_VACACIONAL": "0.00",
+      "SAC": "0.00",
+      "NO_REMUNERATIVO": "0.00",
+      "BASE_APORTES": "1630583.16",
+      "JUBILACION": "179364.15",
+      "LEY_19032": "48917.49",
+      "OBRA_SOCIAL": "48917.49",
+      "SINDICATO": "32611.66",
+      "CONTRIB_SIPA": "293504.97",
+      "CONTRIB_OBRA_SOCIAL": "97834.99"
+    },
+    "totales": {
+      "remunerativo": "1630583.16",
+      "descuentos": "309810.79",
+      "neto": "1320772.37",
+      "costoEmpleador": "2021923.12"
+    }
+  },
+  {
+    "caso": 3,
+    "descripcion": "Cat. B, 3 años, 2 ausencias injustificadas (pierde presentismo)",
+    "legajo": {
+      "categoria": "B",
+      "sueldoFueraDeConvenio": null,
+      "aniosAntiguedad": 3
+    },
+    "novedades": {
+      "tipoLiquidacion": "MENSUAL",
+      "diasTrabajados": 30,
+      "ausenciasInjustificadas": 2,
+      "horasExtra50": 0,
+      "horasExtra100": 0,
+      "diasVacaciones": 0,
+      "sumaNoRemunerativa": "0.00",
+      "mejorRemuneracion": "0.00",
+      "diasTrabajadosSemestre": 0,
+      "diasSemestre": 1
+    },
+    "esperado": {
+      "BASICO": "1320000.00",
+      "ANTIGUEDAD": "39600.00",
+      "PRESENTISMO": "0.00",
+      "DESC_AUSENCIAS": "-90640.00",
+      "VALOR_HORA": "6798.00",
+      "HORAS_EXTRA_50": "0.00",
+      "HORAS_EXTRA_100": "0.00",
+      "PLUS_VACACIONAL": "0.00",
+      "SAC": "0.00",
+      "NO_REMUNERATIVO": "0.00",
+      "BASE_APORTES": "1268960.00",
+      "JUBILACION": "139585.60",
+      "LEY_19032": "38068.80",
+      "OBRA_SOCIAL": "38068.80",
+      "SINDICATO": "25379.20",
+      "CONTRIB_SIPA": "228412.80",
+      "CONTRIB_OBRA_SOCIAL": "76137.60"
+    },
+    "totales": {
+      "remunerativo": "1268960.00",
+      "descuentos": "241102.40",
+      "neto": "1027857.60",
+      "costoEmpleador": "1573510.40"
+    }
+  },
+  {
+    "caso": 4,
+    "descripcion": "Cat. D, 10 años, 10 horas extra al 50% y 4 al 100%",
+    "legajo": {
+      "categoria": "D",
+      "sueldoFueraDeConvenio": null,
+      "aniosAntiguedad": 10
+    },
+    "novedades": {
+      "tipoLiquidacion": "MENSUAL",
+      "diasTrabajados": 30,
+      "ausenciasInjustificadas": 0,
+      "horasExtra50": 10,
+      "horasExtra100": 4,
+      "diasVacaciones": 0,
+      "sumaNoRemunerativa": "0.00",
+      "mejorRemuneracion": "0.00",
+      "diasTrabajadosSemestre": 0,
+      "diasSemestre": 1
+    },
+    "esperado": {
+      "BASICO": "1560000.00",
+      "ANTIGUEDAD": "156000.00",
+      "PRESENTISMO": "142942.80",
+      "DESC_AUSENCIAS": "0.00",
+      "VALOR_HORA": "9294.71",
+      "HORAS_EXTRA_50": "139420.65",
+      "HORAS_EXTRA_100": "74357.68",
+      "PLUS_VACACIONAL": "0.00",
+      "SAC": "0.00",
+      "NO_REMUNERATIVO": "0.00",
+      "BASE_APORTES": "2072721.13",
+      "JUBILACION": "227999.32",
+      "LEY_19032": "62181.63",
+      "OBRA_SOCIAL": "62181.63",
+      "SINDICATO": "41454.42",
+      "CONTRIB_SIPA": "373089.80",
+      "CONTRIB_OBRA_SOCIAL": "124363.27"
+    },
+    "totales": {
+      "remunerativo": "2072721.13",
+      "descuentos": "393817.00",
+      "neto": "1678904.13",
+      "costoEmpleador": "2570174.20"
+    }
+  },
+  {
+    "caso": 5,
+    "descripcion": "Cat. A, ingreso el 16/10: 16 días proporcionales",
+    "legajo": {
+      "categoria": "A",
+      "sueldoFueraDeConvenio": null,
+      "aniosAntiguedad": 0
+    },
+    "novedades": {
+      "tipoLiquidacion": "MENSUAL",
+      "diasTrabajados": 16,
+      "ausenciasInjustificadas": 0,
+      "horasExtra50": 0,
+      "horasExtra100": 0,
+      "diasVacaciones": 0,
+      "sumaNoRemunerativa": "0.00",
+      "mejorRemuneracion": "0.00",
+      "diasTrabajadosSemestre": 0,
+      "diasSemestre": 1
+    },
+    "esperado": {
+      "BASICO": "666666.67",
+      "ANTIGUEDAD": "0.00",
+      "PRESENTISMO": "55533.33",
+      "DESC_AUSENCIAS": "0.00",
+      "VALOR_HORA": "3611.00",
+      "HORAS_EXTRA_50": "0.00",
+      "HORAS_EXTRA_100": "0.00",
+      "PLUS_VACACIONAL": "0.00",
+      "SAC": "0.00",
+      "NO_REMUNERATIVO": "0.00",
+      "BASE_APORTES": "722200.00",
+      "JUBILACION": "79442.00",
+      "LEY_19032": "21666.00",
+      "OBRA_SOCIAL": "21666.00",
+      "SINDICATO": "14444.00",
+      "CONTRIB_SIPA": "129996.00",
+      "CONTRIB_OBRA_SOCIAL": "43332.00"
+    },
+    "totales": {
+      "remunerativo": "722200.00",
+      "descuentos": "137218.00",
+      "neto": "584982.00",
+      "costoEmpleador": "895528.00"
+    }
+  },
+  {
+    "caso": 6,
+    "descripcion": "Cat. E, 2 años, suma no remunerativa por acuerdo de $60.000",
+    "legajo": {
+      "categoria": "E",
+      "sueldoFueraDeConvenio": null,
+      "aniosAntiguedad": 2
+    },
+    "novedades": {
+      "tipoLiquidacion": "MENSUAL",
+      "diasTrabajados": 30,
+      "ausenciasInjustificadas": 0,
+      "horasExtra50": 0,
+      "horasExtra100": 0,
+      "diasVacaciones": 0,
+      "sumaNoRemunerativa": "60000.00",
+      "mejorRemuneracion": "0.00",
+      "diasTrabajadosSemestre": 0,
+      "diasSemestre": 1
+    },
+    "esperado": {
+      "BASICO": "1750000.00",
+      "ANTIGUEDAD": "35000.00",
+      "PRESENTISMO": "148690.50",
+      "DESC_AUSENCIAS": "0.00",
+      "VALOR_HORA": "9668.45",
+      "HORAS_EXTRA_50": "0.00",
+      "HORAS_EXTRA_100": "0.00",
+      "PLUS_VACACIONAL": "0.00",
+      "SAC": "0.00",
+      "NO_REMUNERATIVO": "60000.00",
+      "BASE_APORTES": "1933690.50",
+      "JUBILACION": "212705.96",
+      "LEY_19032": "58010.72",
+      "OBRA_SOCIAL": "58010.72",
+      "SINDICATO": "38673.81",
+      "CONTRIB_SIPA": "348064.29",
+      "CONTRIB_OBRA_SOCIAL": "116021.43"
+    },
+    "totales": {
+      "remunerativo": "1933690.50",
+      "descuentos": "367401.21",
+      "neto": "1626289.29",
+      "costoEmpleador": "2457776.22"
+    }
+  },
+  {
+    "caso": 7,
+    "descripcion": "Fuera de convenio $5.500.000: supera el tope de aportes",
+    "legajo": {
+      "categoria": null,
+      "sueldoFueraDeConvenio": "5500000.00",
+      "aniosAntiguedad": 4
+    },
+    "novedades": {
+      "tipoLiquidacion": "MENSUAL",
+      "diasTrabajados": 30,
+      "ausenciasInjustificadas": 0,
+      "horasExtra50": 0,
+      "horasExtra100": 0,
+      "diasVacaciones": 0,
+      "sumaNoRemunerativa": "0.00",
+      "mejorRemuneracion": "0.00",
+      "diasTrabajadosSemestre": 0,
+      "diasSemestre": 1
+    },
+    "esperado": {
+      "BASICO": "5500000.00",
+      "ANTIGUEDAD": "0.00",
+      "PRESENTISMO": "0.00",
+      "DESC_AUSENCIAS": "0.00",
+      "VALOR_HORA": "27500.00",
+      "HORAS_EXTRA_50": "0.00",
+      "HORAS_EXTRA_100": "0.00",
+      "PLUS_VACACIONAL": "0.00",
+      "SAC": "0.00",
+      "NO_REMUNERATIVO": "0.00",
+      "BASE_APORTES": "4769631.49",
+      "JUBILACION": "524659.46",
+      "LEY_19032": "143088.94",
+      "OBRA_SOCIAL": "143088.94",
+      "SINDICATO": "0.00",
+      "CONTRIB_SIPA": "990000.00",
+      "CONTRIB_OBRA_SOCIAL": "330000.00"
+    },
+    "totales": {
+      "remunerativo": "5500000.00",
+      "descuentos": "810837.34",
+      "neto": "4689162.66",
+      "costoEmpleador": "6820000.00"
+    }
+  },
+  {
+    "caso": 8,
+    "descripcion": "Cat. B, 3 años, 14 días de vacaciones en el mes",
+    "legajo": {
+      "categoria": "B",
+      "sueldoFueraDeConvenio": null,
+      "aniosAntiguedad": 3
+    },
+    "novedades": {
+      "tipoLiquidacion": "MENSUAL",
+      "diasTrabajados": 30,
+      "ausenciasInjustificadas": 0,
+      "horasExtra50": 0,
+      "horasExtra100": 0,
+      "diasVacaciones": 14,
+      "sumaNoRemunerativa": "0.00",
+      "mejorRemuneracion": "0.00",
+      "diasTrabajadosSemestre": 0,
+      "diasSemestre": 1
+    },
+    "esperado": {
+      "BASICO": "1320000.00",
+      "ANTIGUEDAD": "39600.00",
+      "PRESENTISMO": "113254.68",
+      "DESC_AUSENCIAS": "0.00",
+      "VALOR_HORA": "7364.27",
+      "HORAS_EXTRA_50": "0.00",
+      "HORAS_EXTRA_100": "0.00",
+      "PLUS_VACACIONAL": "137466.44",
+      "SAC": "0.00",
+      "NO_REMUNERATIVO": "0.00",
+      "BASE_APORTES": "1610321.12",
+      "JUBILACION": "177135.32",
+      "LEY_19032": "48309.63",
+      "OBRA_SOCIAL": "48309.63",
+      "SINDICATO": "32206.42",
+      "CONTRIB_SIPA": "289857.80",
+      "CONTRIB_OBRA_SOCIAL": "96619.27"
+    },
+    "totales": {
+      "remunerativo": "1610321.12",
+      "descuentos": "305961.00",
+      "neto": "1304360.12",
+      "costoEmpleador": "1996798.19"
+    }
+  },
+  {
+    "caso": 9,
+    "descripcion": "SAC 2º semestre 2026 completo, mejor remuneración $1.700.000",
+    "legajo": {
+      "categoria": "C",
+      "sueldoFueraDeConvenio": null,
+      "aniosAntiguedad": 0
+    },
+    "novedades": {
+      "tipoLiquidacion": "SAC",
+      "diasTrabajados": 0,
+      "ausenciasInjustificadas": 0,
+      "horasExtra50": 0,
+      "horasExtra100": 0,
+      "diasVacaciones": 0,
+      "sumaNoRemunerativa": "0.00",
+      "mejorRemuneracion": "1700000.00",
+      "diasTrabajadosSemestre": 184,
+      "diasSemestre": 184
+    },
+    "esperado": {
+      "BASICO": "0.00",
+      "ANTIGUEDAD": "0.00",
+      "PRESENTISMO": "0.00",
+      "DESC_AUSENCIAS": "0.00",
+      "VALOR_HORA": "0.00",
+      "HORAS_EXTRA_50": "0.00",
+      "HORAS_EXTRA_100": "0.00",
+      "PLUS_VACACIONAL": "0.00",
+      "SAC": "850000.00",
+      "NO_REMUNERATIVO": "0.00",
+      "BASE_APORTES": "850000.00",
+      "JUBILACION": "93500.00",
+      "LEY_19032": "25500.00",
+      "OBRA_SOCIAL": "25500.00",
+      "SINDICATO": "17000.00",
+      "CONTRIB_SIPA": "153000.00",
+      "CONTRIB_OBRA_SOCIAL": "51000.00"
+    },
+    "totales": {
+      "remunerativo": "850000.00",
+      "descuentos": "161500.00",
+      "neto": "688500.00",
+      "costoEmpleador": "1054000.00"
+    }
+  },
+  {
+    "caso": 10,
+    "descripcion": "SAC 2º semestre proporcional, ingreso 01/09/2026 (122 de 184 días)",
+    "legajo": {
+      "categoria": "A",
+      "sueldoFueraDeConvenio": null,
+      "aniosAntiguedad": 0
+    },
+    "novedades": {
+      "tipoLiquidacion": "SAC",
+      "diasTrabajados": 0,
+      "ausenciasInjustificadas": 0,
+      "horasExtra50": 0,
+      "horasExtra100": 0,
+      "diasVacaciones": 0,
+      "sumaNoRemunerativa": "0.00",
+      "mejorRemuneracion": "1354125.00",
+      "diasTrabajadosSemestre": 122,
+      "diasSemestre": 184
+    },
+    "esperado": {
+      "BASICO": "0.00",
+      "ANTIGUEDAD": "0.00",
+      "PRESENTISMO": "0.00",
+      "DESC_AUSENCIAS": "0.00",
+      "VALOR_HORA": "0.00",
+      "HORAS_EXTRA_50": "0.00",
+      "HORAS_EXTRA_100": "0.00",
+      "PLUS_VACACIONAL": "0.00",
+      "SAC": "448921.88",
+      "NO_REMUNERATIVO": "0.00",
+      "BASE_APORTES": "448921.88",
+      "JUBILACION": "49381.41",
+      "LEY_19032": "13467.66",
+      "OBRA_SOCIAL": "13467.66",
+      "SINDICATO": "8978.44",
+      "CONTRIB_SIPA": "80805.94",
+      "CONTRIB_OBRA_SOCIAL": "26935.31"
+    },
+    "totales": {
+      "remunerativo": "448921.88",
+      "descuentos": "85295.17",
+      "neto": "363626.71",
+      "costoEmpleador": "556663.13"
+    }
+  }
+]

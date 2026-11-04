@@ -1,0 +1,20 @@
+{
+  "name": "motor-liquidacion",
+  "version": "0.1.0",
+  "description": "Payroll calculation engine for Argentina with a Spanish formula language and exact decimal arithmetic",
+  "type": "module",
+  "main": "src/index.ts",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "decimal.js": "10.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.43",
+    "typescript": "5.9.3",
+    "vitest": "3.2.7"
+  }
+}
