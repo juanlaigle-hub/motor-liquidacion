@@ -1,5 +1,7 @@
 # Payroll calculation engine (Argentina)
 
+[![CI](https://github.com/juanlaigle-hub/motor-liquidacion/actions/workflows/ci.yml/badge.svg)](https://github.com/juanlaigle-hub/motor-liquidacion/actions/workflows/ci.yml)
+
 The calculation engine behind [sueldos.ingenieriavr.com](https://sueldos.ingenieriavr.com), a multi-tenant SaaS that accounting firms use to run payroll for their client companies.
 
 Payroll rules are not hard-coded. Each pay item (basic salary, seniority, overtime, deductions, employer contributions) is a **formula written in Spanish**, so an accountant can read and adjust it without touching code. The engine parses those formulas, evaluates them in order and keeps a trace of how every amount was computed.
