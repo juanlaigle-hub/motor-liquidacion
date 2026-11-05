@@ -2,6 +2,8 @@
   "name": "motor-liquidacion",
   "version": "0.1.0",
   "description": "Payroll calculation engine for Argentina with a Spanish formula language and exact decimal arithmetic",
+  "license": "UNLICENSED",
+  "private": true,
   "type": "module",
   "main": "src/index.ts",
   "engines": { "node": ">=20" },

@@ -62,4 +62,6 @@ The percentages and assumptions of the generic agreement are illustrative and mu
 
 **Español.** Motor de cálculo de la plataforma de liquidación de sueldos de Ingeniería VR. Los conceptos se escriben como fórmulas en español, con aritmética decimal exacta y redondeo igual al de una planilla. Incluye un convenio genérico configurable y 10 casos de referencia que se validan concepto por concepto en los tests.
 
+© Juan Laiglecia. All rights reserved. See [LICENSE](LICENSE).
+
 Autor: [Juan Laiglecia](https://www.linkedin.com/in/juanlaiglecia) · [Ingeniería VR](https://www.ingenieriavr.com)
